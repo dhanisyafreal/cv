@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #0000001f; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 24px;
+    color: rgb(117, 116, 116); 
+}
+
+.img {
+    width: 400px;  
+    top: 100px;
+    position: relative;
+    right: 300px;
+}
+
+.custom-text{
+    font-size: 50px;
+    width: 800px;
+    position: relative;
+    bottom: 300px;
+    left: 400px;
+    color: rgb(0, 0, 0); 
+}
+
+.img1 {
+    width: 200px;  
+    top: 750px;
+    position: absolute;
+    left: 100px;
+}
+
+.img2 {
+    width: 200px;  
+    top: 1430px;
+    position: absolute;
+    left: 100px;
+}
