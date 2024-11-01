@@ -12,28 +12,20 @@
 
 <body>
 
-    <!-- Background Section -->
-    <div class="hero-section d-flex flex-column justify-content-center align-items-center text-white text-center">
-        <div class="container">
-            <h1 class="display-4">Hello,</h1>
-            <h2 class="lead">My name is Dhani Syafreal</h2>
-        </div>
-    </div>
-
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top shadow">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="asset/LOGO UTM.png" alt="Logo" height="50" class="me-2">
-                <img src="asset/LOGO UKM TRIPLE-C.png" alt="Logo" height="50" class="me-2">
-                <img src="asset/LOGO CT-ONE 2024.jpg" alt="Logo" height="50">
+                <img src="asset/LOGO UTM.png" alt="Logo UTM" height="50" class="me-2">
+                <img src="asset/LOGO UKM TRIPLE-C.png" alt="Logo UKM" height="50" class="me-2">
+                <img src="asset/LOGO CT-ONE 2024.jpg" alt="Logo CT-ONE" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" href="#">Home</a>
                     <a class="nav-link" href="#cv">CV</a>
                     <a class="nav-link" href="#pf">Portfolio</a>
                 </div>
@@ -41,13 +33,21 @@
         </div>
     </nav>
 
+    <!-- Hero Section with Background Image -->
+    <div class="hero-section d-flex flex-column justify-content-center align-items-center text-white text-center">
+        <div class="container">
+            <h1 class="display-4">Hello,</h1>
+            <h2 class="lead">My name is Dhani Syafreal</h2>
+        </div>
+    </div>
+
     <!-- Curriculum Vitae Section -->
-    <section id="cv" class="bg-light text-center text-dark p-5">
+    <section id="cv" class="bg-light text-center text-dark p-5 position-relative">
         <div class="container">
             <h3 class="mb-4">Curriculum Vitae</h3>
-            <div class="row align-items-center">
-                <div class="col-md-4">
-                    <img src="asset/JACK BACA BUKU.png" class="img-fluid mb-3 rounded shadow" alt="Curriculum Image">
+            <div class="row justify-content-center">
+                <div class="col-md-4 position-relative">
+                    <img src="asset/JACK BACA BUKU.png" class="img-fluid mb-3 rounded shadow floating-image" alt="Jack Baca Buku">
                 </div>
                 <div class="col-md-8">
                     <img src="asset/CV.png" class="img-fluid rounded shadow" alt="CV Document">
