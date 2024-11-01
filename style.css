@@ -1,13 +1,10 @@
-.navbar {
-    background-color: #0000001f; 
-}
-
 .navbar1 {
 	height: 100vh;
 	width: 100%;
 	background-image: url(asset/background.png);
 	background-size: cover;
 	background-position: center;
+	background-color: #0000001f; 
 }
 
 .navbar-nav .nav-link {
