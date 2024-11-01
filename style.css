@@ -11,7 +11,22 @@
     font-size: 24px;
     color: rgb(117, 116, 116); 
 }
-
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h4{
+	color: #fcfc;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
 .img {
     width: 400px;  
     top: 100px;
